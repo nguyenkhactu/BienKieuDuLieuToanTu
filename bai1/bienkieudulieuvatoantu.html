@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>biến kiểu dữ liệu và toán tử</title>
+</head>
+<body>
+<form>
+    <table border="1">
+        <tr>
+            <td rowspan="2">
+                <h5 oninput onclick="caihoten()">
+                    Họ và tên
+                </h5>
+            </td>
+            <td colspan="4">
+                <h4>
+                    Tổng Kết
+                </h4>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Vật Lý
+            </td>
+            <td>
+                Hóa học
+            </td>
+            <td>
+                Sinh học
+            </td>
+            <td>
+                Tổng
+            </td>
+            <td>
+                Trung Bình
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <P id="hoten"></P>
+            </td>
+            <td>
+                <input type="number" id="vatly">
+            </td>
+            <td>
+                <input type="number" id="hoahoc">
+            </td>
+            <td>
+                <input type="number" id="sinhhoc">
+            </td>
+            <td>
+                <p onmouseover="tinhtong()" id="ttong">tinhtong</p>
+            </td>
+            <td>
+                <p onmouseover="tinhtb()" id="tb" >trung binh</p>
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+<script src="biendulieu.js">
+</script>
+</html>
